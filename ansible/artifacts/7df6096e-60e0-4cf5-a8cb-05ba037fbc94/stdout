@@ -1,0 +1,19 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+fatal: [192.168.122.203]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.122.203' (ECDSA) to the list of known hosts.\r\ndan@192.168.122.203: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+ok: [192.168.122.161]
+
+TASK [debug] *******************************************************************
+ok: [192.168.122.161] => {
+    "msg": "hey im ansible"
+}
+
+TASK [Creates directory] *******************************************************
+ok: [192.168.122.161]
+
+PLAY RECAP *********************************************************************
+192.168.122.161            : ok=3    changed=0    unreachable=0    failed=0   
+192.168.122.203            : ok=0    changed=0    unreachable=1    failed=0   
+

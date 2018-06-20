@@ -1,0 +1,9 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+fatal: [192.168.122.161]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: dpivonka@192.168.122.161: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+
+PLAY RECAP *********************************************************************
+192.168.122.161            : ok=0    changed=0    unreachable=1    failed=0   
+

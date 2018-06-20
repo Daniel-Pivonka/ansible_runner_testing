@@ -1,0 +1,11 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+fatal: [192.168.122.161]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.122.161 port 22: No route to host\r\n", "unreachable": true}
+fatal: [192.168.122.162]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.122.162 port 22: No route to host\r\n", "unreachable": true}
+
+PLAY RECAP *********************************************************************
+192.168.122.161            : ok=0    changed=0    unreachable=1    failed=0   
+192.168.122.162            : ok=0    changed=0    unreachable=1    failed=0   
+

@@ -1,0 +1,1 @@
+{"uuid": "db8b8ce1-7ce5-4c3c-b621-83453670721a", "stdout": "", "counter": 3, "pid": 19667, "event_data": {"playbook_uuid": "db8b8ce1-7ce5-4c3c-b621-83453670721a", "pid": 19667, "playbook": "main.yml"}, "end_line": 2, "created": "2018-06-19T17:25:22.820430", "start_line": 2, "event": "playbook_on_start"}
