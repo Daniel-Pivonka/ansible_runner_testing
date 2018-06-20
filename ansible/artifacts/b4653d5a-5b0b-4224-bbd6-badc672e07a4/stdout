@@ -1,7 +1,0 @@
-that the implicit localhost does not match 'all'
-
-PLAY [all] *********************************************************************
-skipping: no hosts matched
-
-PLAY RECAP *********************************************************************
-
